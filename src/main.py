@@ -39,7 +39,7 @@ while running:
             elif event.key == pygame.K_SPACE:
                 player.shoot()
 
-    # Movimento dos inimigos
+    # enemy move
     [enemy.move(config.SCREEN_WIDTH) for enemy in enemies]
 
     # Verify collision    
