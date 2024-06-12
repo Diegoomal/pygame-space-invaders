@@ -1,6 +1,7 @@
 import pygame
 import config
-from player import Player, Bullet
+from player import Player
+from bullet import Bullet
 from enemy import Enemy
 from environment import GameEnvironment
 from score import Score
